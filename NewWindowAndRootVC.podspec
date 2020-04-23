@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NewWindowAndRootVC'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'open a new window with rootViewController'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'NewWindowAndRootVC/Classes/**/*'
+  s.source_files = 'NewWindowAndRootVC'
   
   # s.resource_bundles = {
   #   'NewWindowAndRootVC' => ['NewWindowAndRootVC/Assets/*.png']
