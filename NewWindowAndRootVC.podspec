@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NewWindowAndRootVC'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'open a new window with rootViewController'
 
 # This description is used to generate tags and improve search results.

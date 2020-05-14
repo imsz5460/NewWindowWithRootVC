@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E16EDC6244B432E001E64F8 /* UINavigationController+SZNewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16EDC0244B432E001E64F8 /* UINavigationController+SZNewWindow.m */; };
+		01A5D3D4246D165A00ECA289 /* SZUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D3D3246D165A00ECA289 /* SZUINavigationController.m */; };
 		3E16EDC7244B432E001E64F8 /* UIViewController+SZNewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16EDC2244B432E001E64F8 /* UIViewController+SZNewWindow.m */; };
 		3E16EDC8244B432E001E64F8 /* SZNewWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16EDC3244B432E001E64F8 /* SZNewWindowManager.m */; };
 		3E16EDC9244B432E001E64F8 /* SZTranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16EDC5244B432E001E64F8 /* SZTranslucentViewController.m */; };
@@ -20,14 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A5D3D2246D165A00ECA289 /* SZUINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUINavigationController.h; sourceTree = "<group>"; };
+		01A5D3D3246D165A00ECA289 /* SZUINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUINavigationController.m; sourceTree = "<group>"; };
 		3E16ED55244AEFA0001E64F8 /* NewWindowAndRootVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWindowAndRootVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E16EDBE244B432E001E64F8 /* UIViewController+SZNewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SZNewWindow.h"; sourceTree = "<group>"; };
 		3E16EDBF244B432E001E64F8 /* SZNewWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNewWindowManager.h; sourceTree = "<group>"; };
-		3E16EDC0244B432E001E64F8 /* UINavigationController+SZNewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SZNewWindow.m"; sourceTree = "<group>"; };
 		3E16EDC1244B432E001E64F8 /* SZTranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTranslucentViewController.h; sourceTree = "<group>"; };
 		3E16EDC2244B432E001E64F8 /* UIViewController+SZNewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SZNewWindow.m"; sourceTree = "<group>"; };
 		3E16EDC3244B432E001E64F8 /* SZNewWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNewWindowManager.m; sourceTree = "<group>"; };
-		3E16EDC4244B432E001E64F8 /* UINavigationController+SZNewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SZNewWindow.h"; sourceTree = "<group>"; };
 		3E16EDC5244B432E001E64F8 /* SZTranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTranslucentViewController.m; sourceTree = "<group>"; };
 		3E16EDCB244B4395001E64F8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E16EDCC244B4395001E64F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 				3E16EDC3244B432E001E64F8 /* SZNewWindowManager.m */,
 				3E16EDC1244B432E001E64F8 /* SZTranslucentViewController.h */,
 				3E16EDC5244B432E001E64F8 /* SZTranslucentViewController.m */,
-				3E16EDC4244B432E001E64F8 /* UINavigationController+SZNewWindow.h */,
-				3E16EDC0244B432E001E64F8 /* UINavigationController+SZNewWindow.m */,
+				01A5D3D2246D165A00ECA289 /* SZUINavigationController.h */,
+				01A5D3D3246D165A00ECA289 /* SZUINavigationController.m */,
 				3E16EDBE244B432E001E64F8 /* UIViewController+SZNewWindow.h */,
 				3E16EDC2244B432E001E64F8 /* UIViewController+SZNewWindow.m */,
 			);
@@ -169,8 +169,8 @@
 			files = (
 				3E16EDC8244B432E001E64F8 /* SZNewWindowManager.m in Sources */,
 				3E16EDC7244B432E001E64F8 /* UIViewController+SZNewWindow.m in Sources */,
-				3E16EDC6244B432E001E64F8 /* UINavigationController+SZNewWindow.m in Sources */,
 				3E16EDDE244B4395001E64F8 /* AppDelegate.m in Sources */,
+				01A5D3D4246D165A00ECA289 /* SZUINavigationController.m in Sources */,
 				3E16EDC9244B432E001E64F8 /* SZTranslucentViewController.m in Sources */,
 				3E16EDDD244B4395001E64F8 /* main.m in Sources */,
 				3E16EDD9244B4395001E64F8 /* ViewController.m in Sources */,
@@ -316,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 248G564833;
 				INFOPLIST_FILE = "$(SRCROOT)/NewWindowAndRootVCExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 248G564833;
 				INFOPLIST_FILE = "$(SRCROOT)/NewWindowAndRootVCExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

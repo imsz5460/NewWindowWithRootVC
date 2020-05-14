@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIViewController (SZNewWindow)
 
 @property (nonatomic , assign) BOOL isNewWindow;
+@property (nonatomic , assign) BOOL shouldNavigationBarHidden;
 
 @end
 

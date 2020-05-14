@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "SZNewWindowManager.h"
+#import "UIViewController+SZNewWindow.h"
+#import "SZUINavigationController.h"
 
 @interface ViewController ()
 
@@ -17,17 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (IBAction)pushNewWindow:(id)sender {
     
-    [[SZNewWindowManager manager] addNewWindowWithNav: [[UINavigationController alloc] init]];
-    
+    [[SZNewWindowManager manager] addNewWindowWithNav: [[SZUINavigationController alloc] init]];
     UIViewController *pushVC = [[UIViewController alloc] init];
     pushVC.view.backgroundColor = [UIColor redColor];
-    
-    
+//    pushVC.shouldNavigationBarHidden = YES;
     [[SZNewWindowManager manager] pushViewControllerToNewWindow:pushVC];
 }
 

@@ -21,6 +21,14 @@
     objc_setAssociatedObject(self, @selector(isNewWindow), @(isNewWindow), OBJC_ASSOCIATION_ASSIGN);
 }
 
+- (BOOL)shouldNavigationBarHidden {
+    return [objc_getAssociatedObject(self, @selector(shouldNavigationBarHidden)) boolValue];
+}
+
+- (void)setShouldNavigationBarHidden:(BOOL)shouldNavigationBarHidden{
+    objc_setAssociatedObject(self, @selector(shouldNavigationBarHidden), @(shouldNavigationBarHidden), OBJC_ASSOCIATION_ASSIGN);
+}
+
 #pragma mark - 方法交换
 
 static inline void sz_swizzleSelector(Class class, SEL originalSelector, SEL swizzledSelector) {

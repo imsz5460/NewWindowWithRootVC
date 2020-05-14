@@ -7,6 +7,7 @@
 //
 
 #import "SZTranslucentViewController.h"
+#import "UIViewController+SZNewWindow.h"
 
 @interface SZTranslucentViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.shouldNavigationBarHidden = YES;
 }
 
 - (void) loadView {
